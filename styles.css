@@ -62,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--dark-color);
     text-decoration: none;
@@ -157,16 +157,16 @@ body {
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 2.25rem;
     font-weight: 800;
     line-height: 1.2;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     animation: fadeInUp 1s ease;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
     opacity: 0.95;
     animation: fadeInUp 1s ease 0.2s both;
 }
@@ -199,7 +199,7 @@ body {
 }
 
 .hero-tagline {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     opacity: 0.9;
     animation: fadeInUp 1s ease 0.8s both;
 }
@@ -299,7 +299,7 @@ body {
 
 /* Sections */
 .section {
-    padding: 5rem 0;
+    padding: 3rem 0;
     position: relative;
 }
 
@@ -327,26 +327,26 @@ body {
 .stat-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 2.5rem 2rem;
-    border-radius: 16px;
+    padding: 1.5rem 1.25rem;
+    border-radius: 12px;
     text-align: center;
     box-shadow: var(--shadow-lg);
     transition: all 0.3s ease;
 }
 
 .stat-card:hover {
-    transform: translateY(-10px) scale(1.05);
+    transform: translateY(-5px) scale(1.02);
     box-shadow: var(--shadow-xl);
 }
 
 .stat-number {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .stat-label {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     opacity: 0.95;
     font-weight: 500;
 }
@@ -365,8 +365,8 @@ body {
 
 .step-card {
     background: white;
-    padding: 2.5rem;
-    border-radius: 20px;
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
     box-shadow: var(--shadow-lg);
     text-align: center;
     position: relative;
@@ -374,36 +374,36 @@ body {
 }
 
 .step-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: var(--shadow-xl);
 }
 
 .step-number {
     position: absolute;
-    top: -20px;
+    top: -15px;
     left: 50%;
     transform: translateX(-50%);
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: var(--gradient-1);
     color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 800;
     box-shadow: var(--shadow-md);
 }
 
 .step-icon {
-    font-size: 4rem;
-    margin: 1rem 0;
+    font-size: 2.25rem;
+    margin: 0.75rem 0;
 }
 
 .step-card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
     color: var(--dark-color);
 }
 
@@ -426,8 +426,8 @@ body {
 
 .who-card {
     background: var(--light-color);
-    padding: 2.5rem;
-    border-radius: 16px;
+    padding: 1.75rem;
+    border-radius: 12px;
     border-left: 4px solid var(--primary-color);
     transition: all 0.3s ease;
 }
@@ -435,19 +435,19 @@ body {
 .who-card:hover {
     background: white;
     box-shadow: var(--shadow-xl);
-    transform: translateX(10px);
+    transform: translateX(5px);
     border-left-color: var(--secondary-color);
 }
 
 .who-icon {
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
     display: block;
 }
 
 .who-card h3 {
-    font-size: 1.3rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
     color: var(--dark-color);
 }
 
@@ -462,32 +462,32 @@ body {
 
 .section-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .section-icon {
-    font-size: 3rem;
+    font-size: 2rem;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 
 .section-header h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--dark-color);
     margin-bottom: 0.5rem;
 }
 
 .section-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     color: var(--gray-color);
 }
 
 .intro-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--gray-color);
-    margin-bottom: 2rem;
-    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
 }
 
 .intro-text.center {
@@ -582,7 +582,7 @@ body {
 }
 
 .feature-icon {
-    font-size: 3rem;
+    font-size: 2.25rem;
     margin-bottom: 1rem;
 }
 
@@ -806,7 +806,7 @@ body {
 
 .voucher-card h3 {
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .qr-placeholder {
@@ -855,7 +855,7 @@ body {
 
 .tagline-text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     margin-top: 3rem;
     color: var(--dark-color);
@@ -871,7 +871,7 @@ body {
 
 .why-card {
     background: white;
-    padding: 2.5rem;
+    padding: 1.75rem;
     border-radius: 16px;
     box-shadow: var(--shadow-md);
     text-align: center;
@@ -884,7 +884,7 @@ body {
 }
 
 .why-icon {
-    font-size: 3.5rem;
+    font-size: 2.25rem;
     margin-bottom: 1rem;
 }
 
@@ -913,7 +913,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.8;
     color: var(--dark-color);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -923,12 +923,12 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .credit-how-card {
     background: white;
-    padding: 2.5rem;
+    padding: 1.75rem;
     border-radius: 16px;
     box-shadow: var(--shadow-lg);
     text-align: center;
@@ -946,7 +946,7 @@ body {
 }
 
 .credit-how-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 1rem;
     color: var(--dark-color);
 }
@@ -1027,8 +1027,8 @@ body {
 
 .pricing-card-new {
     background: white;
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: 16px;
+    padding: 1.5rem;
     box-shadow: var(--shadow-lg);
     transition: all 0.3s ease;
     border: 2px solid #e5e7eb;
@@ -1037,7 +1037,7 @@ body {
 }
 
 .pricing-card-new:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: var(--shadow-xl);
     border-color: var(--primary-color);
 }
@@ -1089,7 +1089,7 @@ body {
 }
 
 .plan-header-new h3 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     color: var(--dark-color);
     font-weight: 700;
@@ -1103,14 +1103,14 @@ body {
 }
 
 .amount-new {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--primary-color);
 }
 
 .period-new {
     color: var(--gray-color);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .credit-highlight {
@@ -1143,10 +1143,10 @@ body {
 }
 
 .credit-amount {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--secondary-color);
-    margin: 0.5rem 0;
+    margin: 0.25rem 0;
 }
 
 .pricing-card-new.enterprise .credit-amount {
@@ -1250,7 +1250,7 @@ body {
 }
 
 .plan-header h3 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -1262,7 +1262,7 @@ body {
 }
 
 .amount {
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 800;
     color: var(--primary-color);
 }
@@ -1309,7 +1309,7 @@ body {
 
 .franchise-type-card {
     background: white;
-    padding: 2.5rem;
+    padding: 1.75rem;
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
     border: 2px solid #e2e8f0;
@@ -1329,7 +1329,7 @@ body {
 }
 
 .franchise-type-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 0.5rem;
     text-align: left;
 }
@@ -1382,7 +1382,7 @@ body {
 }
 
 .benefit-icon {
-    font-size: 3rem;
+    font-size: 2.25rem;
     display: block;
     margin-bottom: 1rem;
 }
@@ -1465,7 +1465,7 @@ body {
 }
 
 .cta-content h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -1517,7 +1517,7 @@ body {
 }
 
 .contact-item-icon {
-    font-size: 2.5rem;
+    font-size: 2rem;
     flex-shrink: 0;
 }
 
@@ -1561,7 +1561,7 @@ body {
 }
 
 .contact-form-wrapper h3 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
     color: var(--dark-color);
 }
@@ -1657,14 +1657,14 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .footer-logo {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -1732,6 +1732,28 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 2.5rem 0;
+    }
+
+    .section-header h2 {
+        font-size: 1.4rem;
+    }
+
+    .section-icon {
+        font-size: 2.25rem;
+    }
+}
+
 @media (max-width: 968px) {
     .hamburger {
         display: flex;
@@ -1760,7 +1782,15 @@ body {
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.85rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .section {
+        padding: 2rem 0;
     }
 
     .content-grid {
@@ -1773,6 +1803,10 @@ body {
     }
 
     .section-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .section-icon {
         font-size: 2rem;
     }
 
@@ -1826,11 +1860,35 @@ body {
 }
 
 @media (max-width: 640px) {
+    .section {
+        padding: 1.5rem 0;
+    }
+
+    .section-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .section-header h2 {
+        font-size: 1.35rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .section-icon {
+        font-size: 1.4rem;
+    }
+
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
 
     .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-tagline {
         font-size: 1.1rem;
     }
 
@@ -1863,7 +1921,7 @@ body {
     }
 
     .cta-content h2 {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
 
     .footer-bottom {
@@ -1892,6 +1950,26 @@ body {
         width: 100%;
     }
 
+    .stat-number {
+        font-size: 1.25rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .intro-text {
+        font-size: 0.9rem;
+    }
+
+    .feature-item strong {
+        font-size: 0.95rem;
+    }
+
+    .feature-item p {
+        font-size: 0.85rem;
+    }
+
     .credits-intro {
         font-size: 1rem;
     }
@@ -1905,7 +1983,7 @@ body {
     }
 
     .credits-benefits h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .pricing-card-new {
@@ -1913,15 +1991,68 @@ body {
     }
 
     .amount-new {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .credit-amount {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     .pricing-note {
-        padding: 1.5rem;
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .stat-number {
+        font-size: 1.25rem;
+    }
+
+    .stat-label {
+        font-size: 0.85rem;
+    }
+
+    .step-icon {
+        font-size: 2rem;
+    }
+
+    .step-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .step-card p {
+        font-size: 0.9rem;
+    }
+
+    .who-icon {
+        font-size: 2rem;
+    }
+
+    .who-card h3 {
+        font-size: 1rem;
+    }
+
+    .who-card p {
+        font-size: 0.9rem;
+    }
+
+    .plan-header-new h3 {
+        font-size: 1.25rem;
+    }
+
+    .plan-features-new {
+        font-size: 0.9rem;
+    }
+
+    .credit-how-card h3 {
+        font-size: 1.15rem;
+    }
+
+    .credit-how-card p {
+        font-size: 0.9rem;
+    }
+
+    .credits-benefits h3 {
+        font-size: 1.35rem;
     }
 }
 
