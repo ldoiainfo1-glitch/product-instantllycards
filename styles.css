@@ -69,14 +69,16 @@ body {
 }
 
 .logo-img {
-    height: 45px;
+    height: 40px;
     width: auto;
     object-fit: contain;
+    display: block;
 }
 
 .logo-text {
     font-weight: 700;
     color: var(--dark-color);
+    white-space: nowrap;
 }
 
 .logo-icon {
@@ -86,7 +88,7 @@ body {
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 2.5rem;
+    gap: 1.75rem;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -132,6 +134,7 @@ body {
     transition: all 0.3s ease;
     font-weight: 600;
     box-shadow: 0 4px 12px rgba(30, 64, 175, 0.25);
+    white-space: nowrap;
 }
 
 .btn-nav:hover {
