@@ -54,8 +54,12 @@
                     <span>✔ Vouchers</span>
                 </div>
                 <div class="hero-cta">
-                    <a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="btn btn-primary" target="_blank">📱 Download App</a>
-                    <a href="#directory" class="btn btn-secondary">🌐 Explore Directory</a>
+                    <a href="#" class="btn btn-primary">� Download App</a>
+                    <a href="#directory" class="btn btn-secondary">🟢 Explore Directory</a>
+                </div>
+                <div class="app-badges">
+                    <a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="app-badge" target="_blank">📲 Download on Google Play</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="app-badge" target="_blank">🍎 Download on App Store</a>
                 </div>
                 <p class="hero-tagline">Connect. Promote. Grow. <strong>Instantlly.</strong></p>
             </div>
