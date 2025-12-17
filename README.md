@@ -1,17 +1,17 @@
-# Instantlly Cards - Marketing Website
+# instantly Cards - Marketing Website
 
-A modern, responsive marketing website for Instantlly Cards - The Global Business Identity Platform.
+A modern, responsive marketing website for instantly Cards - The Global Business Identity Platform.
 
 ## 🌍 About
 
-Instantlly Cards is a comprehensive digital business platform that combines:
+instantly Cards is a comprehensive digital business platform that combines:
 - 🪪 Digital Visiting Cards
 - 🏢 Global Business Directory
 - 🎉 Events & Event Management
 - 📢 Classifieds Marketplace
 - 🎁 Digital Vouchers & Offers
 
-**Tagline:** Connect. Promote. Grow. Instantlly.
+**Tagline:** Connect. Promote. Grow. instantly.
 
 ## 🚀 Features
 
@@ -23,7 +23,7 @@ Instantlly Cards is a comprehensive digital business platform that combines:
 5. **Classifieds Marketplace** - Posting and discovery features
 6. **Digital Vouchers** - Customer rewards system
 7. **Dashboard Overview** - Unified management interface
-8. **Why Instantlly Cards** - Key advantages
+8. **Why instantly Cards** - Key advantages
 9. **Pricing Plans** - Free and Premium options
 10. **Franchise Program** - City franchise opportunities
 11. **Call to Action** - Final conversion section
@@ -31,7 +31,7 @@ Instantlly Cards is a comprehensive digital business platform that combines:
 ## 📁 Project Structure
 
 ```
-instantlly-landing/
+instantly-landing/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styling
 ├── script.js           # JavaScript functionality
@@ -180,14 +180,14 @@ Potential additions:
 
 ## 📝 License
 
-Copyright © 2025 Instantlly Cards. All rights reserved.
+Copyright © 2025 instantly Cards. All rights reserved.
 
 ## 🤝 Support
 
-For questions or support, please contact the Instantlly Cards team.
+For questions or support, please contact the instantly Cards team.
 
 ---
 
-**Built with ❤️ for Instantlly Cards**
+**Built with ❤️ for instantly Cards**
 
-*Connect. Promote. Grow. Instantlly.*
+*Connect. Promote. Grow. instantly.*

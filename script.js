@@ -348,6 +348,6 @@ const efficientScroll = debounce(() => {
 window.addEventListener('scroll', efficientScroll);
 
 // Console message
-console.log('%c🌍 Instantlly Cards', 'font-size: 20px; font-weight: bold; color: #2563eb;');
-console.log('%cConnect. Promote. Grow. Instantlly.', 'font-size: 14px; color: #10b981;');
+console.log('%c🌍 instantly Cards', 'font-size: 20px; font-weight: bold; color: #2563eb;');
+console.log('%cConnect. Promote. Grow. instantly.', 'font-size: 14px; color: #10b981;');
 console.log('%cWebsite built with ❤️', 'font-size: 12px; color: #64748b;');

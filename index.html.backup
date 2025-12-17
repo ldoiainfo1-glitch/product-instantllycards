@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Instantlly Cards - The Global Business Identity Platform. Connect. Promote. Grow. Instantlly.">
-    <title>Instantlly Cards - Global Business Identity Platform</title>
+    <meta name="description" content="instantly Cards - The Global Business Identity Platform. Connect. Promote. Grow. instantly.">
+    <title>instantly Cards - Global Business Identity Platform</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,8 +17,8 @@
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
-                    <img src="logo.jpg" alt="Instantlly Cards" class="logo-img">
-                    <span class="logo-text">Instantlly Cards</span>
+                    <img src="logo.jpg" alt="instantly Cards" class="logo-img">
+                    <span class="logo-text">instantly Cards</span>
                 </div>
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="#features">Features</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="advantages.html">Why Choose Us</a></li>
                     <li><a href="#franchise">Franchise</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="btn-nav" target="_blank">Get Started</a></li>
+                    <li><a href="https://play.google.com/store/apps/details?id=com.instantlycards.www.twa" class="btn-nav" target="_blank">Get Started</a></li>
                 </ul>
                 <div class="hamburger" id="hamburger">
                     <span></span>
@@ -45,7 +45,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Your Entire Business Identity — In One Smart Digital Card</h1>
-                <p class="hero-subtitle">Instantlly Cards transforms the way professionals and businesses connect. Create, share, promote, and grow — all from a single platform.</p>
+                <p class="hero-subtitle">instantly Cards transforms the way professionals and businesses connect. Create, share, promote, and grow — all from a single platform.</p>
                 <div class="hero-features">
                     <span>✔ Digital Cards</span>
                     <span>✔ Business Directory</span>
@@ -58,10 +58,10 @@
                     <a href="#directory" class="btn btn-secondary">🟢 Explore Directory</a>
                 </div>
                 <div class="app-badges">
-                    <a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="app-badge" target="_blank">📲 Download on Google Play</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="app-badge" target="_blank">🍎 Download on App Store</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instantlycards.www.twa" class="app-badge" target="_blank">📲 Download on Google Play</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instantlycards.www.twa" class="app-badge" target="_blank">🍎 Download on App Store</a>
                 </div>
-                <p class="hero-tagline">Connect. Promote. Grow. <strong>Instantlly.</strong></p>
+                <p class="hero-tagline">Connect. Promote. Grow. <strong>instantly.</strong></p>
             </div>
         </div>
     </section>
@@ -71,12 +71,12 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-icon">📱</span>
-                <h2>About Instantlly Cards App</h2>
+                <h2>About instantly Cards App</h2>
                 <p class="section-subtitle">The All-in-One Digital Business Solution</p>
             </div>
             
             <div class="about-content">
-                <p class="about-intro">Instantlly Cards is a revolutionary mobile application that combines five powerful business tools into one seamless platform. Whether you're a freelancer, entrepreneur, small business owner, or corporate professional, our app empowers you to manage your complete digital business presence from your smartphone.</p>
+                <p class="about-intro">instantly Cards is a revolutionary mobile application that combines five powerful business tools into one seamless platform. Whether you're a freelancer, entrepreneur, small business owner, or corporate professional, our app empowers you to manage your complete digital business presence from your smartphone.</p>
                 
                 <div class="app-stats">
                     <div class="stat-card">
@@ -105,7 +105,7 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-icon">🚀</span>
-                <h2>How Instantlly Cards Works</h2>
+                <h2>How instantly Cards Works</h2>
                 <p class="section-subtitle">Get started in 3 simple steps</p>
             </div>
             
@@ -114,7 +114,7 @@
                     <div class="step-number">1</div>
                     <div class="step-icon">📥</div>
                     <h3>Download & Sign Up</h3>
-                    <p>Download the Instantlly Cards app from Google Play or App Store. Create your free account in under 2 minutes using your email or phone number.</p>
+                    <p>Download the instantly Cards app from Google Play or App Store. Create your free account in under 2 minutes using your email or phone number.</p>
                 </div>
                 
                 <div class="step-card">
@@ -138,7 +138,7 @@
     <section class="section section-who">
         <div class="container">
             <div class="section-header">
-                <h2>Who Can Use Instantlly Cards?</h2>
+                <h2>Who Can Use instantly Cards?</h2>
                 <p class="section-subtitle">Perfect for every professional and business</p>
             </div>
             
@@ -192,7 +192,7 @@
             </div>
             <div class="content-grid">
                 <div class="content-text">
-                    <p class="intro-text">Instantlly Cards replaces traditional visiting cards with a dynamic digital profile.</p>
+                    <p class="intro-text">instantly Cards replaces traditional visiting cards with a dynamic digital profile.</p>
                     <div class="features-list">
                         <div class="feature-item">
                             <span class="feature-check">✓</span>
@@ -325,7 +325,7 @@
                 <h2>Events & Event Management</h2>
                 <p class="section-subtitle">Promote, Manage & Grow Your Audience</p>
             </div>
-            <p class="intro-text center">Instantlly Cards gives you all the tools to host events — online or offline.</p>
+            <p class="intro-text center">instantly Cards gives you all the tools to host events — online or offline.</p>
             
             <div class="content-grid reverse">
                 <div class="content-visual">
@@ -512,12 +512,12 @@
         </div>
     </section>
 
-    <!-- Why Instantlly Cards -->
+    <!-- Why instantly Cards -->
     <section class="section section-why">
         <div class="container">
             <div class="section-header">
                 <span class="section-icon">💎</span>
-                <h2>Why Instantlly Cards</h2>
+                <h2>Why instantly Cards</h2>
             </div>
             
             <div class="why-grid">
@@ -560,12 +560,12 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-icon">💎</span>
-                <h2>How Instantlly Credits Work</h2>
+                <h2>How instantly Credits Work</h2>
                 <p class="section-subtitle">Your gateway to unlimited advertising and growth</p>
             </div>
             
             <div class="credits-explanation">
-                <p class="credits-intro">Instantlly Credits are the digital currency that powers your advertising and promotional activities within the platform. Think of credits as your marketing budget that never expires!</p>
+                <p class="credits-intro">instantly Credits are the digital currency that powers your advertising and promotional activities within the platform. Think of credits as your marketing budget that never expires!</p>
                 
                 <div class="credits-how-grid">
                     <div class="credit-how-card">
@@ -667,7 +667,7 @@
                         <li>✔ Premium Analytics</li>
                         <li>✔ Priority Support 24/7</li>
                     </ul>
-                    <a href="https://www.instantllycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
+                    <a href="https://www.instantlycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
                 </div>
 
                 <!-- Pincode Level Plan -->
@@ -694,7 +694,7 @@
                         <li>✔ Premium Analytics</li>
                         <li>✔ Priority Support 24/7</li>
                     </ul>
-                    <a href="https://www.instantllycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
+                    <a href="https://www.instantlycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
                 </div>
 
                 <!-- Tehsil Level Plan - Most Popular -->
@@ -722,7 +722,7 @@
                         <li>✔ Premium Analytics</li>
                         <li>✔ Priority Support 24/7</li>
                     </ul>
-                    <a href="https://www.instantllycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
+                    <a href="https://www.instantlycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
                 </div>
 
                 <!-- District Level Plan -->
@@ -749,7 +749,7 @@
                         <li>✔ Premium Analytics</li>
                         <li>✔ Priority Support 24/7</li>
                     </ul>
-                    <a href="https://www.instantllycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
+                    <a href="https://www.instantlycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
                 </div>
 
                 <!-- State Level Plan -->
@@ -776,7 +776,7 @@
                         <li>✔ Premium Analytics</li>
                         <li>✔ Priority Support 24/7</li>
                     </ul>
-                    <a href="https://www.instantllycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
+                    <a href="https://www.instantlycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
                 </div>
 
                 <!-- India Level Plan -->
@@ -803,12 +803,12 @@
                         <li>✔ Premium Analytics</li>
                         <li>✔ Priority Support 24/7</li>
                     </ul>
-                    <a href="https://www.instantllycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
+                    <a href="https://www.instantlycards.com/" class="btn btn-primary btn-get-started" target="_blank">Get Started</a>
                 </div>
             </div>
 
             <div class="pricing-note">
-                <p><strong>💡 Note:</strong> All plans are one-time investments with no recurring fees. Your advertising credits never expire and can be used anytime to promote your business across the Instantlly platform.</p>
+                <p><strong>💡 Note:</strong> All plans are one-time investments with no recurring fees. Your advertising credits never expire and can be used anytime to promote your business across the instantly platform.</p>
                 <p><strong>🎯 Commission Explained:</strong> The difference between your investment and the credits you receive is your marketing commission - use it to grow your business exponentially!</p>
             </div>
         </div>
@@ -820,7 +820,7 @@
             <div class="section-header">
                 <span class="section-icon">🌐</span>
                 <h2>Channel Partner & Franchise Program</h2>
-                <p class="section-subtitle">Build Your Business Empire with Instantlly Cards</p>
+                <p class="section-subtitle">Build Your Business Empire with instantly Cards</p>
             </div>
             
             <div class="franchise-content">
@@ -932,9 +932,9 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Ready to build your global business identity?</h2>
-                <p>Join thousands of professionals and businesses already growing with Instantlly Cards</p>
+                <p>Join thousands of professionals and businesses already growing with instantly Cards</p>
                 <div class="cta-buttons">
-                    <a href="https://play.google.com/store/apps/details?id=com.instantllycards.www.twa" class="btn btn-primary btn-large" target="_blank">🔵 Create Your Instantlly Card</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.instantlycards.www.twa" class="btn btn-primary btn-large" target="_blank">🔵 Create Your instantly Card</a>
                     <a href="#directory" class="btn btn-secondary btn-large">🟢 Explore the Directory</a>
                 </div>
             </div>
@@ -948,10 +948,10 @@
                 <div class="footer-column">
                     <div class="footer-logo">
                         <span class="logo-icon">🌍</span>
-                        <span class="logo-text">Instantlly Cards</span>
+                        <span class="logo-text">instantly Cards</span>
                     </div>
                     <p>The Global Business Identity Platform</p>
-                    <p class="tagline">Connect. Promote. Grow. Instantlly.</p>
+                    <p class="tagline">Connect. Promote. Grow. instantly.</p>
                 </div>
                 
                 <div class="footer-column">
@@ -987,7 +987,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 Instantlly Cards. All rights reserved.</p>
+                <p>&copy; 2025 instantly Cards. All rights reserved.</p>
                 <div class="social-links">
                     <a href="#">Facebook</a>
                     <a href="#">Twitter</a>
