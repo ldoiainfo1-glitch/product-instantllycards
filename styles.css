@@ -68,6 +68,11 @@ body {
     text-decoration: none;
 }
 
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
 .logo-icon {
     font-size: 2rem;
 }
