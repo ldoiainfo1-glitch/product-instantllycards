@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Instantlly Cards - Get in touch with us">
+    <title>Contact Us - Instantlly Cards</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .contact-page {
+            min-height: 100vh;
+            padding: 120px 0 3rem;
+            background: var(--light-color);
+        }
+        
+        .contact-page-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .contact-page-header .section-icon {
+            font-size: 2.5rem;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-page-header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-page-header p {
+            font-size: 1.1rem;
+            color: var(--gray-color);
+        }
+        
+        .contact-compact {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 2rem;
+        }
+        
+        .contact-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .contact-card-compact {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-card-compact:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .contact-icon-compact {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+        
+        .contact-content-compact h3 {
+            font-size: 1rem;
+            margin-bottom: 0.25rem;
+            color: var(--dark-color);
+        }
+        
+        .contact-content-compact p {
+            font-size: 0.9rem;
+            color: var(--gray-color);
+            line-height: 1.4;
+        }
+        
+        .social-links-compact {
+            display: flex;
+            gap: 0.75rem;
+            margin-top: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .social-link-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.4rem 0.8rem;
+            background: var(--light-color);
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link-btn:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .contact-form-main {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .contact-form-main h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--dark-color);
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .form-group-compact {
+            margin-bottom: 1rem;
+        }
+        
+        .form-group-compact label {
+            display: block;
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 0.9rem;
+            margin-bottom: 0.4rem;
+        }
+        
+        .form-group-compact input,
+        .form-group-compact select,
+        .form-group-compact textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            background: var(--light-color);
+        }
+        
+        .form-group-compact input:focus,
+        .form-group-compact select:focus,
+        .form-group-compact textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background: white;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        .form-group-compact textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .submit-btn-compact {
+            width: 100%;
+            padding: 0.9rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .submit-btn-compact:hover {
+            background: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .form-notice-compact {
+            text-align: center;
+            color: var(--gray-color);
+            font-size: 0.85rem;
+            margin-top: 0.75rem;
+        }
+        
+        @media (max-width: 968px) {
+            .contact-compact {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-page {
+                padding: 100px 20px 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo" style="text-decoration: none;">
+                    <span class="logo-icon">🌍</span>
+                    <span class="logo-text">Instantlly Cards</span>
+                </a>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html#features">Features</a></li>
+                    <li><a href="index.html#directory">Directory</a></li>
+                    <li><a href="index.html#events">Events</a></li>
+                    <li><a href="index.html#pricing">Pricing</a></li>
+                    <li><a href="index.html#franchise">Franchise</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html" class="btn-nav">Get Started</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Page -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-page-header">
+                <span class="section-icon">📧</span>
+                <h1>Get In Touch</h1>
+                <p>Have questions? We'd love to hear from you!</p>
+            </div>
+            
+            <div class="contact-compact">
+                <!-- Contact Info Sidebar -->
+                <div class="contact-sidebar">
+                    <div class="contact-card-compact">
+                        <div class="contact-icon-compact">📍</div>
+                        <div class="contact-content-compact">
+                            <h3>Office Address</h3>
+                            <p>Instantlly Cards HQ<br>Mumbai, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card-compact">
+                        <div class="contact-icon-compact">📞</div>
+                        <div class="contact-content-compact">
+                            <h3>Phone Number</h3>
+                            <p>+91 1234567890<br>Mon-Fri, 9AM-6PM IST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card-compact">
+                        <div class="contact-icon-compact">✉️</div>
+                        <div class="contact-content-compact">
+                            <h3>Email Address</h3>
+                            <p>info@instantllycards.com<br>support@instantllycards.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card-compact">
+                        <div class="contact-icon-compact">🌐</div>
+                        <div class="contact-content-compact">
+                            <h3>Follow Us</h3>
+                            <div class="social-links-compact">
+                                <a href="#" class="social-link-btn">📘 Facebook</a>
+                                <a href="#" class="social-link-btn">🐦 Twitter</a>
+                                <a href="#" class="social-link-btn">📷 Instagram</a>
+                                <a href="#" class="social-link-btn">💼 LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-main">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group-compact">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            
+                            <div class="form-group-compact">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group-compact">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+91 1234567890">
+                            </div>
+                            
+                            <div class="form-group-compact">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="pricing">Pricing & Plans</option>
+                                    <option value="franchise">Franchise Opportunity</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group-compact">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn-compact">Send Message</button>
+                        <p class="form-notice-compact">We'll get back to you within 24 hours</p>
+                    </form>
+                    <div id="formSuccess" class="form-message success" style="display: none;">
+                        ✅ Thank you! Your message has been sent successfully.
+                    </div>
+                    <div id="formError" class="form-message error" style="display: none;">
+                        ❌ Oops! Something went wrong. Please try again.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🌍</span>
+                        <span class="logo-text">Instantlly Cards</span>
+                    </div>
+                    <p>The Global Business Identity Platform</p>
+                    <p class="tagline">Connect. Promote. Grow. Instantlly.</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="index.html#features">Digital Cards</a></li>
+                        <li><a href="index.html#directory">Business Directory</a></li>
+                        <li><a href="index.html#events">Events</a></li>
+                        <li><a href="index.html">Classifieds</a></li>
+                        <li><a href="index.html">Vouchers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="index.html#pricing">Pricing</a></li>
+                        <li><a href="index.html#franchise">Franchise</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Instantlly Cards. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
