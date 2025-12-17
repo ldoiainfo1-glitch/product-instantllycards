@@ -187,13 +187,13 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    min-height: 90vh;
+    min-height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #ffffff 100%);
     color: var(--dark-color);
-    padding: 8rem 0 5rem;
+    padding: 6rem 0 3rem;
     overflow: hidden;
 }
 
