@@ -193,7 +193,7 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #ffffff 100%);
     color: var(--dark-color);
-    padding: 4.5rem 0 2.5rem;
+    padding: 6rem 0 3rem;
     overflow: hidden;
 }
 
@@ -1565,10 +1565,11 @@ body {
 
 /* CTA Section */
 .section-cta {
-    background: var(--gradient-1);
+    background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
     color: white;
     padding: 5rem 0;
     margin: 3rem 0;
+    position: relative;
 }
 
 .cta-content {
@@ -1576,6 +1577,8 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 .cta-content h2 {
@@ -1583,13 +1586,16 @@ body {
     margin-bottom: 1.5rem;
     font-weight: 800;
     line-height: 1.3;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .cta-content p {
     font-size: 1.3rem;
     margin-bottom: 2.5rem;
-    opacity: 0.95;
+    opacity: 1;
     line-height: 1.6;
+    color: #ffffff;
 }
 
 .cta-buttons {
