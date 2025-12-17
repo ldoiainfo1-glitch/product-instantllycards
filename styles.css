@@ -7,13 +7,16 @@
 
 :root {
     --primary-color: #2563eb;
+    --primary-dark: #1e40af;
+    --primary-light: #3b82f6;
     --secondary-color: #10b981;
+    --accent-color: #06b6d4;
     --dark-color: #1e293b;
     --light-color: #f8fafc;
     --gray-color: #64748b;
-    --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --gradient-1: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    --gradient-2: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
+    --gradient-3: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
@@ -128,7 +131,7 @@ body {
 
 .btn-nav {
     padding: 0.65rem 1.75rem;
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    background: var(--gradient-1);
     color: white !important;
     border-radius: 10px;
     transition: all 0.3s ease;
@@ -164,7 +167,7 @@ body {
 
 /* Page Header */
 .page-header {
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    background: var(--gradient-1);
     padding: 140px 0 70px;
     text-align: center;
     color: white;
@@ -250,9 +253,9 @@ body {
     border-radius: 25px;
     font-size: 0.95rem;
     font-weight: 500;
-    border: 2px solid #3b82f6;
-    color: #1e40af;
-    box-shadow: 0 2px 8px rgba(30, 64, 175, 0.1);
+    border: 2px solid var(--primary-light);
+    color: var(--primary-dark);
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
 }
 
 .hero-cta {
@@ -329,7 +332,7 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    background: var(--gradient-1);
     color: white;
 }
 
@@ -1235,7 +1238,7 @@ body {
 .credit-label {
     font-size: 0.65rem;
     font-weight: 700;
-    color: #1e40af;
+    color: var(--primary-dark);
     text-transform: uppercase;
     letter-spacing: 1.5px;
     margin-bottom: 0.75rem;
@@ -1251,7 +1254,7 @@ body {
 
 .commission-label {
     font-size: 0.85rem;
-    color: #1e40af;
+    color: var(--primary-dark);
     font-weight: 600;
 }
 
