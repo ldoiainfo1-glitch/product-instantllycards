@@ -195,7 +195,8 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 50%, #ffffff 100%);
     color: var(--dark-color);
-    padding: 4rem 0 2rem;
+    padding: 6rem 0 2rem;
+    margin-top: 70px;
     overflow: hidden;
 }
 
@@ -2223,6 +2224,7 @@ body {
 
     .hero {
         padding: 3rem 0 1.5rem;
+        margin-top: 60px;
     }
 
     .hero-title {
@@ -2501,6 +2503,7 @@ body {
 
     .hero {
         padding: 2.5rem 0 1.25rem;
+        margin-top: 55px;
     }
 
     .hero-title {
