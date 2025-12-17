@@ -1888,12 +1888,48 @@ body {
         gap: 2rem;
     }
 
+    /* Hero Section - Stack on mobile */
+    .hero-content {
+        grid-template-columns: 1fr !important;
+        gap: 2rem !important;
+    }
+
+    .hero-text {
+        order: 1;
+    }
+
+    .hero-app-mockup {
+        order: 2;
+    }
+
     .hero-title {
         font-size: 1.85rem;
+        text-align: center !important;
     }
 
     .hero-subtitle {
         font-size: 0.95rem;
+        text-align: center !important;
+    }
+
+    .hero-features {
+        justify-content: center !important;
+    }
+
+    .hero-tagline {
+        text-align: center !important;
+    }
+
+    .app-benefits {
+        text-align: center !important;
+    }
+
+    .app-benefits h3 {
+        text-align: center !important;
+    }
+
+    .hero-cta {
+        justify-content: center !important;
     }
 
     .section {
