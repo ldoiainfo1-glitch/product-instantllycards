@@ -27,14 +27,18 @@
       "src": "/.well-known/assetlinks.json",
       "headers": {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*"
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=0, must-revalidate"
       },
-      "dest": "/.well-known/assetlinks.json"
+      "dest": "/.well-known/assetlinks.json",
+      "continue": false
     },
     {
       "src": "/",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "trailingSlash": false,
+  "cleanUrls": false
 }
 
